@@ -1,5 +1,5 @@
 {% set name = "ford" %}
-{% set version = "6.1.6" %}
+{% set version = "6.1.7" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/FORD-{{ version }}.tar.gz
-  sha256: c286206e6ce8c12f2e00f6c73e3b76dae830dce7b5b6f52a54512585fcfae12a
+  url: https://github.com/Fortran-FOSS-Programmers/ford/archive/refs/tags/v{{ version }}.tar.gz
+  sha256: 5a264ee6a510bcec37f23e44d32d9c49d42bbf3a56b0fd0df246a2af242f80b9
 
 build:
   number: 0
