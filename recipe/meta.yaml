@@ -1,5 +1,5 @@
 {% set name = "ford" %}
-{% set version = "6.1.10" %}
+{% set version = "6.1.12" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/Fortran-FOSS-Programmers/ford/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: e5d285752fbdf83fe41f0d361b70e53f5ded3ac2c3953e66d3116607676eeb96
+  sha256: 5c75a74b876da39073b4def6fb5b82d814e62d6d1de61c2424b186e4d36f130f
 
 build:
   number: 0
