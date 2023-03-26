@@ -1,11 +1,11 @@
-About ford
-==========
+About ford-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ford-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/Fortran-FOSS-Programmers/ford
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ford-feedstock/blob/main/LICENSE.txt)
 
 Summary: FORD, standing for FORtran Documenter, is an automatic documentation generator for modern Fortran programs.
 
