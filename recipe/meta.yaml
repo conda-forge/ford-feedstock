@@ -1,5 +1,5 @@
 {% set name = "ford" %}
-{% set version = "6.1.17" %}
+{% set version = "6.2.0" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/Fortran-FOSS-Programmers/ford/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 51ee85562d527ffdba9f639c2585f74ad69bc3317cb9f07961ebb5fc4303512c
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/FORD-{{ version }}.tar.gz
+  sha256: 6bb0884726be2499e4a591b3ff1cebb9e9782b12bf04a2d8294c56637cd97399
 
 build:
   number: 0
@@ -46,6 +46,7 @@ about:
   home: https://github.com/Fortran-FOSS-Programmers/ford
   summary: FORD, standing for FORtran Documenter, is an automatic documentation generator for modern Fortran programs.
   dev_url: https://github.com/Fortran-FOSS-Programmers/ford
+  doc_url: https://forddocs.readthedocs.io
   license: GPL-3.0-or-later
   license_file: LICENSE
 
