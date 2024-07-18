@@ -1,5 +1,5 @@
 {% set name = "ford" %}
-{% set version = "7.0.6" %}
+{% set version = "7.0.7" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/FORD-{{ version }}.tar.gz
-  sha256: 662d0cab60234743ed7b863fbb980e0af909f31e0205011d7978ea2dedc3e952
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 00e941fca500f6cdcfe60ed210370c2ff0e33b096c66cf4e8af159d7424f64d3
 
 build:
   number: 0
